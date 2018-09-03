@@ -1,0 +1,23 @@
+@import url('https://rsms.me/inter/inter-ui.css');
+
+/* Layout */
+
+html{
+  font-size: 0.938em;
+}
+
+body {
+	font-family: 'Inter UI', sans-serif;
+  background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+.wrapper {
+	min-height: 100%;
+  width: 100%;
+    -moz-hyphens: auto;
+    word-wrap: break-word;
+}
+
+
+
