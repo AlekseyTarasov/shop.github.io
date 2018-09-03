@@ -131,3 +131,13 @@ header .cart-link{
   border-left: solid 1px transparent;
   border-right: solid 1px transparent;
 }
+
+.sad.icon i:hover {
+  position: absolute;
+  left: 2px;
+  top: 9px;
+  width: 10px;
+  height: 4px;
+  border-radius: 0 0 6px 6px;
+  border: solid 1px currentColor;
+}
