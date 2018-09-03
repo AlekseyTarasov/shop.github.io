@@ -24,3 +24,7 @@ body {
 	padding: 40px 0 55px;
 }
 
+.branding a h2 {
+	display: none;
+}
+
