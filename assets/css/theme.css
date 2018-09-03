@@ -53,9 +53,8 @@ header .header-nav {
 	-ms-flex: 1;
 	flex: 1;
 	isplay: inline-block;
-	font-size: 18px;
 	max-width: 33%;
-	text-align: left;
+	text-align: right;
 }
 
 header .branding{
@@ -87,7 +86,7 @@ header .cart-link{
 	display: inline-block;
 	max-width: 33%;
 	position: relative;
-	text-align: right;
+	text-align: left;
 }
 
 .sad.icon {
