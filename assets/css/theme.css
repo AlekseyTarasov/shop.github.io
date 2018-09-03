@@ -19,5 +19,8 @@ body {
     	-moz-hyphens: auto;
 }
 
-
+.branding{
+	text-align: center;
+	padding: 40px 0 55px;
+}
 
