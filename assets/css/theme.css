@@ -20,6 +20,16 @@ body {
 }
 
 header .header{
+	background: #FFFFFF;
+-webkit-transition: height 0.4s;
+-moz-transition: height 0.4s;
+-o-transition: height 0.4s;
+transition: height 0.4s;
+height: 220px;
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 4;
 	padding: 1rem 0 2rem;
 }
 
