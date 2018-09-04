@@ -6,15 +6,14 @@ layout: default
 
   {%- if site.posts.size > 0 -%}
     {%- for post in site.posts -%}
-      <article class="post">
-
-        <header class="post-header">
-          <p class="post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
-          <p class="post-tittle"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></p>
-        </header>
-                        
-        <img src="{{ site.baseurl }}/{{ post.thumbnail }}">
-
+      <article class="product">
+        <a href="{{ post.url | relative_url }}" class="product-link">
+          <section class="product-image" style="background-image:url('{{ site.baseurl }}/{{ post.thumbnail }}');"></section>
+        </a>
       </article>
     {%- endfor -%}
   {%- endif -%}
+
+
+
+
