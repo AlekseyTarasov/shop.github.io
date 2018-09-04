@@ -20,6 +20,7 @@ body {
 }
 
 .header{
+	background: #ffe4ab;
 -webkit-transition: height 0.4s;
 -moz-transition: height 0.4s;
 -o-transition: height 0.4s;
