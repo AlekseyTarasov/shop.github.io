@@ -63,6 +63,10 @@ header .header-nav {
 	text-align: right;
 }
 
+header .header-nav a{
+	font-weight: 700;
+}
+
 header .branding{
 	text-align: center;
 	-webkit-flex: 2;
@@ -98,8 +102,8 @@ header .cart-link{
 .sad.icon {
   color: #000;
   position: absolute;
-  margin-left: 2px;
-  margin-top: 2px;
+  margin-left: 5px;
+  margin-top: -5px;
   width: 16px;
   height: 16px;
   border-radius: 50%;
