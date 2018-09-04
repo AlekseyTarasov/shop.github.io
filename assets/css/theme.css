@@ -142,7 +142,7 @@ header .cart-link{
   border-right: solid 1px transparent;
 }
 
-.sad.icon i:hover, .sad.icon {
+.sad.icon i:hover {
   position: absolute;
   left: 2px;
   top: 9px;
