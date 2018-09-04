@@ -21,16 +21,13 @@ body {
 
 .header{
 	background: #ffe4ab;
--webkit-transition: height 0.4s;
--moz-transition: height 0.4s;
--o-transition: height 0.4s;
-transition: height 0.4s;
-height: 220px;
-position: fixed;
-top: 0;
-width: 100%;
-z-index: 4;
+	height: 220px;
+	width: 100%;
 	padding: 1rem 0 2rem;
+	transition: height 0.4s;
+		-webkit-transition: height 0.4s;
+		-moz-transition: height 0.4s;
+		-o-transition: height 0.4s;
 }
 
 header .navigation{
