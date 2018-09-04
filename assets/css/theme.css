@@ -48,12 +48,20 @@ header .navigation{
 	z-index: 5;
 }
 
+header .navigation a {
+	font-size: 11px;
+	line-height: 30px;
+	letter-spacing: .04em;
+	color: #364148;
+	text-decoration: none;
+}
+
 header .header-nav {
 	-webkit-flex: 1;
 	-ms-flex: 1;
 	flex: 1;
 	isplay: inline-block;
-	max-width: 20%;
+	max-width: 30%;
 	text-align: right;
 }
 
@@ -71,7 +79,7 @@ header .branding{
 	display: inline-block;
 	font-size: 22px;
 	height: 100%;
-	max-width: 60%;
+	max-width: 40%;
 	text-align: center;
 }
 
@@ -84,7 +92,7 @@ header .cart-link{
 	-ms-flex: 3;
 	flex: 3;
 	display: inline-block;
-	max-width: 20%;
+	max-width: 30%;
 	position: relative;
 	text-align: left;
 }
