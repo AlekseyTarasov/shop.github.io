@@ -19,8 +19,7 @@ body {
     	-moz-hyphens: auto;
 }
 
-header .header{
-	background: #FFFFFF;
+.header{
 -webkit-transition: height 0.4s;
 -moz-transition: height 0.4s;
 -o-transition: height 0.4s;
