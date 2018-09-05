@@ -149,6 +149,13 @@ header .cart-link{
   border: solid 1px currentColor;
 }
 
+.product{
+	float: right;
+	position: relative;
+	max-width: 550px;
+	margin-top: 2px;
+}
+
 
 article .product-image {
 	background-position: center;
