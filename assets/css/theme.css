@@ -148,3 +148,12 @@ header .cart-link{
   border-radius: 0 0 6px 6px;
   border: solid 1px currentColor;
 }
+
+
+article .product-image {
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+	overflow: hidden;
+	width: 50%;
+}
