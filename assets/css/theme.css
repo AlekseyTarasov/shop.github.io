@@ -23,7 +23,7 @@ body {
 	background: #ffe4ab;
 	height: 220px;
 	width: 100%;
-	margin-top: 2rem; 
+	margin-top: 4rem; 
 	padding: 1rem 0 2rem;
 	transition: height 0.4s;
 		-webkit-transition: height 0.4s;
@@ -43,6 +43,7 @@ header .navigation{
 	justify-content: space-between;
 	height: 100%;
 	position: relative;
+	padding-right: 1rem;
 	z-index: 5;
 }
 
@@ -93,6 +94,7 @@ header .cart-link{
 	flex: 3;
 	display: inline-block;
 	max-width: 30%;
+	padding-left: 1rem;
 	position: relative;
 	text-align: left;
 }
@@ -163,5 +165,4 @@ article .product-image {
 	background-size: cover;
 	height: 100%;
 	overflow: hidden;
-	width: 50%;
 }
