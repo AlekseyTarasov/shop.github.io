@@ -23,6 +23,7 @@ body {
 	background: #ffe4ab;
 	height: 220px;
 	width: 100%;
+	margin-top: 2rem; 
 	padding: 1rem 0 2rem;
 	transition: height 0.4s;
 		-webkit-transition: height 0.4s;
@@ -150,10 +151,10 @@ header .cart-link{
 }
 
 .product{
-	float: right;
 	position: relative;
-	max-width: 550px;
-	margin-top: 2px;
+	width: 400px;
+	height: 400px;
+	margin-bottom: 2rem;
 }
 
 
