@@ -168,9 +168,9 @@ article .product-image {
 }
 
 
-/* Product */
+/* Content */
 
-.product {
+.content {
   position: relative;
   width: 100%;
   max-width: 960px;
@@ -179,12 +179,12 @@ article .product-image {
   box-sizing: border-box; }
 
 @media (min-width: 400px) {
-  .product {
+  .content {
     width: 85%;
     padding: 0; }
 }
 
 @media (min-width: 550px) {
-  .product {
+  .content {
     width: 80%; 
 }
