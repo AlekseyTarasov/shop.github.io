@@ -17,4 +17,8 @@ Casual Fit
 
 210 g/m²
 
+<b>Size avivable:</b>
+
+S-M-L-XL-XXL
+
 ![wash icons](assets/images/icons.png)
