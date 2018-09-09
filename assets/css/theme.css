@@ -221,11 +221,10 @@ header .cart-link{
  }
 
 .article-content {
-  position: relative;
-  float: left;
-  width: 220px;
-  margin-top: 10px;
-  margin-bottom: 0;
+float: left;
+clear: left;
+width: 220px;
+margin-top: 22px;
 }
 
 .product-header {

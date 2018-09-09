@@ -9,19 +9,19 @@ layout: default
 			<p class="product-price">{{ page.price }}</p>
 		</header>
 
-		<section class="article-content">
-			{{ content }}
-			<a href="mailto:your@cornishmouth.cc?Subject=Order%20{{ page.title }}">
-				<button class="form-submit">Order</button>
-			</a>
-		</section>
-
 		<section class="product-gallery">
 			<div class="product-thumb">
 			    {% for item in page.photos %}
 			  		<img src="{{ item }}">
 				{% endfor %}
 			</div>
+		</section>
+
+		<section class="article-content">
+			{{ content }}
+			<a href="mailto:your@cornishmouth.cc?Subject=Order%20{{ page.title }}">
+				<button class="form-submit">Order</button>
+			</a>
 		</section>
 	</div>
 </article>
