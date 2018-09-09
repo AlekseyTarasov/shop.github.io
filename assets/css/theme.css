@@ -61,13 +61,13 @@ header .header-nav {
 	-ms-flex: 1;
 	flex: 1;
 	isplay: inline-block;
-	max-width: 30%;
+	max-width: 20%;
 	text-align: right;
 }
 
 @media (min-width: 550px) {
   header .header-nav {
-    max-width: 20%; }
+    max-width: 30%; }
 }
 
 
@@ -85,13 +85,13 @@ header .branding{
 	display: inline-block;
 	font-size: 22px;
 	height: 100%;
-	max-width: 40%;
+	max-width: 60%;
 	text-align: center;
 }
 
 @media (min-width: 550px) {
   header .branding {
-    max-width: 60%; }
+    max-width: 40%; }
 }
 
 .branding a h2 {
@@ -103,7 +103,7 @@ header .cart-link{
 	-ms-flex: 3;
 	flex: 3;
 	display: inline-block;
-	max-width: 30%;
+	max-width: 20%;
 	padding-left: 1rem;
 	position: relative;
 	text-align: left;
@@ -111,7 +111,7 @@ header .cart-link{
 
 @media (min-width: 550px) {
   header .cart-link {
-    max-width: 20%; }
+    max-width: 30%; }
 }
 
 .sad.icon {
