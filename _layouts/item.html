@@ -4,11 +4,12 @@ layout: default
 
 <article class="product-page">
 	<div class="canvas">
+		<header class="product-header">
+			<p class="product-title">{{ page.title }}</p>                
+			<p class="product-price">{{ page.price }}</p>
+		</header>
+
 		<section class="article-content">
-			<header class="product-header">
-				<p class="product-title">{{ page.title }}</p>                
-				<p class="product-price">{{ page.price }}</p>
-			</header>
 			{{ content }}
 			<a href="mailto:your@cornishmouth.cc?Subject=Order%20{{ page.title }}">
 				<button class="form-submit">Order</button>
