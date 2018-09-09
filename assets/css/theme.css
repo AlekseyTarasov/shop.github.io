@@ -242,11 +242,19 @@ header .cart-link{
   line-height: 1.3em;	
   text-align: center;
 
-   position: relative;
+  position: relative;
   float: left;
   width: 220px;
   margin-top: 10px;
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 800px) and (min-width: 569px){
+.product-header {
+	float: none;
+	width: 100%;
+	margin-top: 0;
+	margin-bottom: 25px;}
 }
 
 .product-title{
