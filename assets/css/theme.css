@@ -240,6 +240,12 @@ header .cart-link{
 	font-weight: 400;
 	letter-spacing: 1px;
 	text-transform: uppercase;
+	word-wrap: break-word;
+}
+
+.product-price{
+	margin-top: 1rem; 
+	font-weight: 600;
 }
 
 #product_info {
