@@ -2,18 +2,18 @@
 layout: default
 ---
 
-  {{ content }}
+  <main class="content">
 
-  {%- if site.posts.size > 0 -%}
-    {%- for post in site.posts -%}
-      <article class="product">
-        <a href="{{ post.url | relative_url }}" class="product-link">
-          <img class="product-image" src="{{ site.baseurl }}/{{ post.thumbnail }}">
-        </a>
-      </article>
-    {%- endfor -%}
-  {%- endif -%}
+    {{ content }}
 
+    {%- if site.posts.size > 0 -%}
+      {%- for post in site.posts -%}
+        <article class="product">
+          <a href="{{ post.url | relative_url }}" class="product-link">
+            <img class="product-image" src="{{ site.baseurl }}/{{ post.thumbnail }}">
+          </a>
+        </article>
+      {%- endfor -%}
+    {%- endif -%}
 
-
-
+  </main>
