@@ -65,6 +65,11 @@ header .header-nav {
 	text-align: right;
 }
 
+@media (min-width: 550px) {
+  header .header-nav {
+    max-width: 20%; 
+}
+
 
 header .branding{
 	text-align: center;
@@ -84,6 +89,11 @@ header .branding{
 	text-align: center;
 }
 
+@media (min-width: 550px) {
+  header .branding {
+    max-width: 60%; 
+}
+
 .branding a h2 {
 	display: none;
 }
@@ -97,6 +107,11 @@ header .cart-link{
 	padding-left: 1rem;
 	position: relative;
 	text-align: left;
+}
+
+@media (min-width: 550px) {
+  header .cart-link {
+    max-width: 20%; 
 }
 
 .sad.icon {
