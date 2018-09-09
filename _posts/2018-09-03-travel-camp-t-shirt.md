@@ -11,3 +11,9 @@ photos:
 ---
 
 
+Casual Fit
+
+100% cotton, ring spun
+
+210 g/m²
+
