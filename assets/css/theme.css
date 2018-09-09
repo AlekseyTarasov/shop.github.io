@@ -209,6 +209,13 @@ header .cart-link{
 	padding: 2rem;
 }
 
+.canvas {
+  position: relative;
+  width: 900px;
+  margin: 0 auto;
+  clear: both;
+}
+
 .page_header {
   margin-bottom: 30px;
  }

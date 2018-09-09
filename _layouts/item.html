@@ -3,21 +3,21 @@ layout: default
 ---
 
 <article class="product-page">
+	<div class="canvas">
+		<section class="article-content">
+			<header class="product-header">
+				<p class="product-title">{{ page.title }}</p>                
+				<p class="product-price">{{ page.price }}</p>
+			</header>
+			{{ content }}
+		</section>
 
-	<section class="article-content">
-		<header class="product-header">
-			<p class="product-title">{{ page.title }}</p>                
-			<p class="product-price">{{ page.price }}</p>
-		</header>
-		{{ content }}
-	</section>
-
-	<section class="product-gallery">
-		<div class="product-thumb">
-		    {% for item in page.photos %}
-		  		<img src="{{ item }}">
-			{% endfor %}
-		</div>
-	</section>
-
+		<section class="product-gallery">
+			<div class="product-thumb">
+			    {% for item in page.photos %}
+			  		<img src="{{ item }}">
+				{% endfor %}
+			</div>
+		</section>
+	</div>
 </article>
