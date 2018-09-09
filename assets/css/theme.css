@@ -216,6 +216,14 @@ header .cart-link{
   clear: both;
 }
 
+@media screen and (max-width: 800px) and (min-width: 569px) {
+.canvas {
+	position: relative;
+	width: 640px !important;
+	margin: 0 auto;
+	clear: both;}
+}
+
 .page_header {
   margin-bottom: 30px;
  }
