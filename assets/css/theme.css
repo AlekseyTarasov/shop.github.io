@@ -206,3 +206,44 @@ header .cart-link{
 	background-color: #fff;
 	padding: 2rem;
 }
+
+.page_header {
+  margin-bottom: 30px;
+  }
+
+#product_page #content .product_header {
+  position: relative;
+  float: left;
+  width: 220px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  }
+
+#product_info {
+  float: left;
+  clear: left;
+  width: 220px;
+  margin-top: 22px;
+  }
+
+.product-thumb {
+  float: right;
+  position: relative;
+  max-width: 550px;
+  margin-top: 2px;
+  }
+
+#product_images li {
+  margin-bottom: 15px;
+  line-height: 0;
+  }
+
+#product_images .slides li:last-child { margin-bottom: 0; }
+
+#product_images li img {
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 8px rgba(0,0,0,.4);
+  box-shadow: 0 1px 8px rgba(0,0,0,.4);
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+  }
+
