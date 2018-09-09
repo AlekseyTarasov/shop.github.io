@@ -21,6 +21,6 @@ Casual Fit
 
 <b>Size avivable:</b>
 
-S-M-L-XL-XXL
+S M L XL XXL
 
 ![wash icons](assets/images/icons.png)
