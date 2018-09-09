@@ -17,3 +17,4 @@ Casual Fit
 
 210 g/m²
 
+![wash icons](assets/images/icons.png)
