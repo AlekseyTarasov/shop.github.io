@@ -4,7 +4,7 @@ date:   2018-09-03
 layout: item
 price: $10.00
 size: size (S M L XL XXL) and
-print: budapest, rijeka or trieste
+print: print (budapest, rijeka or trieste)
 color: 
 thumbnail: assets/images/thumbnail/budapest.jpg
 photos:
