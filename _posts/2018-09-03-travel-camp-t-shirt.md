@@ -3,7 +3,7 @@ title: "TRAVEL_CAMP T-SHIRT"
 date:   2018-09-03
 layout: item
 price: $10.00
-Size:
+Size: Size (S M L XL XXL)
 Color: 
 thumbnail: assets/images/thumbnail/budapest.jpg
 photos:
