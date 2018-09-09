@@ -227,6 +227,14 @@ header .cart-link{
 	margin-top: 22px;
 }
 
+@media screen and (max-width: 800px) and (min-width: 569px) {
+.article-content  {
+	float: none;
+	clear: none;
+	width: 70%;
+	margin: 40px auto;}
+}
+
 .article-content p{
 	font-size: 11px;
 	letter-spacing: 0.8px;
@@ -298,10 +306,12 @@ header .cart-link{
   margin-top: 1rem;
  }
 
-#product_images li {
-  margin-bottom: 15px;
-  line-height: 0;
-  }
+@media screen and (max-width: 800px) and (min-width: 569px) {
+.product-thumb {
+	float: none;
+	width: 92%;
+	margin: 0 auto;}
+}
 
 .form-order {
   display: block;
