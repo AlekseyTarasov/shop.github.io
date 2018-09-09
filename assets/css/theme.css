@@ -67,7 +67,7 @@ header .header-nav {
 
 @media (min-width: 550px) {
   header .header-nav {
-    max-width: 20%; 
+    max-width: 20%; }
 }
 
 
@@ -91,7 +91,7 @@ header .branding{
 
 @media (min-width: 550px) {
   header .branding {
-    max-width: 60%; 
+    max-width: 60%; }
 }
 
 .branding a h2 {
@@ -111,7 +111,7 @@ header .cart-link{
 
 @media (min-width: 550px) {
   header .cart-link {
-    max-width: 20%; 
+    max-width: 20%; }
 }
 
 .sad.icon {
