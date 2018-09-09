@@ -221,10 +221,10 @@ header .cart-link{
  }
 
 .article-content {
-float: left;
-clear: left;
-width: 220px;
-margin-top: 22px;
+	float: left;
+	clear: left;
+	width: 220px;
+	margin-top: 22px;
 }
 
 .product-header {
@@ -240,7 +240,7 @@ margin-top: 22px;
 }
 
 .product-title{
-	font-size: 1.1em;
+	font-size: 1em;
 	font-weight: 400;
 	letter-spacing: 1px;
 	text-transform: uppercase;
@@ -257,8 +257,14 @@ margin-top: 22px;
 }
 
 .product-price{
-	margin-top: 1rem; 
+	margin-top: .5rem; 
 	font-weight: 600;
+
+	background: #000;
+display: inline-block;
+line-height: 1.4;
+padding: 0 0.4em;
+color: #fff;
 }
 
 #product_info {
