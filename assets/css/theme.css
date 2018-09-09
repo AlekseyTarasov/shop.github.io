@@ -216,7 +216,7 @@ header .cart-link{
   clear: both;
 }
 
-@media screen and (max-width: 800px) and (min-width: 569px) {
+@media screen and (max-width: 800px) {
 .canvas {
 	position: relative;
 	width: 640px !important;
@@ -235,7 +235,7 @@ header .cart-link{
 	margin-top: 22px;
 }
 
-@media screen and (max-width: 800px) and (min-width: 569px) {
+@media screen and (max-width: 800px) {
 .article-content  {
 	float: none;
 	clear: none;
@@ -265,7 +265,7 @@ header .cart-link{
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 800px) and (min-width: 569px){
+@media screen and (max-width: 800px){
 .product-header {
 	float: none;
 	width: 100%;
