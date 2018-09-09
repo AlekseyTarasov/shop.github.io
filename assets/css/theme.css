@@ -219,7 +219,7 @@ header .cart-link{
 @media screen and (max-width: 800px) {
 .canvas {
 	position: relative;
-	width: 640px !important;
+	width: auto !important;
 	margin: 0 auto;
 	clear: both;}
 }
