@@ -213,7 +213,7 @@ header .cart-link{
   margin-bottom: 30px;
   }
 
-#product_page #content .product_header {
+.article-content {
   position: relative;
   float: left;
   width: 220px;
