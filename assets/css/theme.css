@@ -296,3 +296,6 @@ header .cart-link{
   border-color: #000;
   outline: 0; }
 
+.article-content a{
+	text-decoration: none;
+}
