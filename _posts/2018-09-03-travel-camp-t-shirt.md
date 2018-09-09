@@ -5,8 +5,9 @@ layout: item
 price: $10.00
 thumbnail: assets/images/thumbnail/budapest.jpg
 photos:
-  - https://www.dropbox.com/s/pejddd62us8wdxz/0001.jpg?raw=1
-
+  - https://www.dropbox.com/s/z1b4axyiuwjewtk/budapest.jpg?raw=1
+  - https://www.dropbox.com/s/9ly40rvy0fu02hp/rijeka.jpg?raw=1
+  - https://www.dropbox.com/s/0y5rc7mcyjt8ujv/trieste.jpg?raw=1
 ---
 
 
