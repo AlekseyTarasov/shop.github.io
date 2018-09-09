@@ -3,7 +3,7 @@ title: "TRAVEL_CAMP T-SHIRT"
 date:   2018-09-03
 layout: item
 price: $10.00
-size: Size (S M L XL XXL) and
+size: size (S M L XL XXL) and
 print: budapest, rijeka or trieste
 color: 
 thumbnail: assets/images/thumbnail/budapest.jpg
@@ -20,9 +20,7 @@ Casual Fit
 
 210 g/m²
 
-<br>
-
-<b>Size available:</b>
+**Size available:**
 
 S M L XL XXL
 
