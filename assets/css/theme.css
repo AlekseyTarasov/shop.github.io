@@ -200,3 +200,9 @@ header .cart-link{
   .content {
     width: 80%; 
 }
+
+
+.product-page {
+	background-color: #fff;
+	padding: 2rem;
+}
