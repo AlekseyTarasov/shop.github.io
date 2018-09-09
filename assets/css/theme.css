@@ -225,9 +225,13 @@ header .cart-link{
 	clear: left;
 	width: 220px;
 	margin-top: 22px;
+}
 
-	font-weight: 700;
-font-size: 11px;
+.article-content p{
+	font-size: 11px;
+	line-height: 2;
+	letter-spacing: 0.8px;
+	margin: 1em 0;
 }
 
 .product-header {
