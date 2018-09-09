@@ -225,6 +225,9 @@ header .cart-link{
 	clear: left;
 	width: 220px;
 	margin-top: 22px;
+
+	font-weight: 700;
+font-size: 11px;
 }
 
 .product-header {
@@ -246,25 +249,24 @@ header .cart-link{
 	text-transform: uppercase;
 	
 	  overflow-wrap: break-word;
-  word-wrap: break-word;
-  -ms-word-break: break-all;
-  word-break: break-all;
-  word-break: break-word;
-  -ms-hyphens: auto;
-  -moz-hyphens: auto;
-  -webkit-hyphens: auto;
-  hyphens: auto;
+	  word-wrap: break-word;
+	  -ms-word-break: break-all;
+	  word-break: break-all;
+	  word-break: break-word;
+	  -ms-hyphens: auto;
+	  -moz-hyphens: auto;
+	  -webkit-hyphens: auto;
+	  hyphens: auto;
 }
 
 .product-price{
 	margin-top: .5rem; 
 	font-weight: 600;
-
 	background: #000;
-display: inline-block;
-line-height: 1.4;
-padding: 0 0.4em;
-color: #fff;
+	display: inline-block;
+	line-height: 1.5;
+	padding: 0 0.4em;
+	color: #fff;
 }
 
 #product_info {
@@ -286,7 +288,7 @@ color: #fff;
   line-height: 0;
   }
 
-.form-submit {
+.form-order {
   display: block;
   height: 38px;
   width: 100%;
@@ -301,8 +303,8 @@ color: #fff;
   border: 1px solid #3f474c;
   cursor: pointer;
   box-sizing: border-box; }
-.form-submit:hover,
-.form-submit:focus {
+.form-order:hover,
+.form-order:focus {
   background-color: #000; 
   color: #fff;
   border-color: #000;
