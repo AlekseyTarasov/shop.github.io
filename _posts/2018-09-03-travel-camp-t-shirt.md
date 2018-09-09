@@ -20,6 +20,8 @@ Casual Fit
 
 210 g/m²
 
+<br>
+
 **Size available:**
 
 S M L XL XXL
