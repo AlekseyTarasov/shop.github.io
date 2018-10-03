@@ -6,6 +6,7 @@ price: $10.00
 size: size (S M L XL XXL) and
 print: print (budapest, rijeka or trieste)
 color: 
+sold_out: sold out
 thumbnail: assets/images/thumbnail/budapest.jpg
 photos:
   - https://www.dropbox.com/s/z1b4axyiuwjewtk/budapest.jpg?raw=1
