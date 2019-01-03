@@ -8,7 +8,7 @@ html{
 
 body {
 	font-family: 'Inter UI', sans-serif;
-	background-color: #ffe4ab;
+	background-color: #212121;
 		-webkit-font-smoothing: antialiased;
 }
 
@@ -20,7 +20,7 @@ body {
 }
 
 .header{
-	background: #ffe4ab;
+	background: #212121;
 	height: 220px;
 	width: 100%;
 	margin-top: 4rem; 
