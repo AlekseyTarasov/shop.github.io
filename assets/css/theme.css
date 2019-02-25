@@ -10,6 +10,11 @@ body {
 	font-family: 'Inter UI', sans-serif;
 	background-color: #212121;
 		-webkit-font-smoothing: antialiased;
+	background: url(assets/images/unsplash.jpg) no-repeat center center fixed; 
+  		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+  	background-size: cover;
 }
 
 .wrapper {
