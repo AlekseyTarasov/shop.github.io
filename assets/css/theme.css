@@ -94,8 +94,9 @@ header .branding{
 }
 
 header img {
-height: auto;
-max-width: 60%;
+	height: auto;
+	max-width: 60%;
+	margin-top: 2em;
 }
 
 @media (min-width: 550px) {
