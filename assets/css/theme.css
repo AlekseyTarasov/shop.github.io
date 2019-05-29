@@ -93,6 +93,11 @@ header .branding{
 	text-align: center;
 }
 
+header img {
+height: auto;
+max-width: 60%;
+}
+
 @media (min-width: 550px) {
   header .branding {
     max-width: 40%; }
