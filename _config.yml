@@ -1,16 +1,72 @@
-title: shop.cornishmouth (1)
-email: your@cornishmouth.cc
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  AlekseyTarasov
+# Site Settings
+title: Jekyll Cart
+description: A Jekyll Based Shopping Cart Built with simpleCart(js)
+url:
 
-# Build settings
+# Jekyll Configuration
+encoding: UTF-8
+permalink: /:title/
+paginate: 5
+paginate_path: "/blog/page/:num/"
+
+# Markdown Processing
 markdown: kramdown
-permalink: /:title
-plugins:
+kramdown:
+  input: GFM
+
+# Sass/SCSS settings
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# Custom Collections
+collections:
+  products:
+    output: true
+
+# Collection Defaults
+defaults:
+- scope:
+    type: posts
+  values:
+    layout: post
+- scope:
+    type: pages
+  values:
+    layout: page
+- scope:
+    type: products
+  values:
+    layout: product
+
+# Frontmatter Defaults
+sidebar_options:
+  - sidebar
+  - no-sidebar
+
+# File Handling
+# include: [_pages]
+exclude: [lib, config.rb, .sass-cache, Capfile, config, log, Rakefile, Rakefile.rb, tmp, Gemfile, Gemfile.lock, README.md, LICENSE.md, node_modules, gulpfile.js, package.json]
+
+# Plugins
+gems:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-paginate
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  permalinks:
+    categories: '/category/:name/'
+    tags: '/tag/:name/'
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
