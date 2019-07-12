@@ -25,4 +25,4 @@ Casual Fit
 
 S M L XL XXL
 
-![wash icons](assets/images/icons.png)
+![wash icons](assets/images/icons.svg)
