@@ -1,6 +1,14 @@
 @import url('https://rsms.me/inter/inter-ui.css');
 
-/* Layout */
+/* Layout 
+
+	background: url(../images/unsplash.jpg) no-repeat center center fixed; 
+  		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+  	background-size: cover;
+
+*/
 
 html{
   font-size: 0.938em;
@@ -9,12 +17,8 @@ html{
 body {
 	font-family: 'Inter UI', sans-serif;
 	background-color: #FFE4B1;
-			-webkit-font-smoothing: antialiased;
-	background: url(../images/unsplash.jpg) no-repeat center center fixed; 
-  		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-  	background-size: cover;
+		-webkit-font-smoothing: antialiased;
+
 }
 
 .wrapper {
@@ -435,4 +439,8 @@ td.item-quantity .simpleCart_input{
 td.item-quantity .simpleCart_input:focus {
   outline: none;
   border: solid 1px #6d6d6d;
+}
+
+.item-decrement {
+
 }
