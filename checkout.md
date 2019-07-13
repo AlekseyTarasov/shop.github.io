@@ -28,7 +28,7 @@ permalink: /checkout/
 </form>
 
 
-<form action="https://formspree.io/email@domain.tld" method="POST" />
+<form action="https://formspree.io/your@cornishmouth.cc" method="POST" />
   <input type="text" name="name">
   <input type="email" name="_replyto">
   <input type="submit" value="Send">
