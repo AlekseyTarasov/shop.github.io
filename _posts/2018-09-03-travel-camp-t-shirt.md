@@ -12,7 +12,7 @@ sizes:
   - Large
   - XL
   - XXL
-print:
+prints:
   - name: budapest
     color:
     photo: https://www.dropbox.com/s/z1b4axyiuwjewtk/budapest.jpg?raw=1
