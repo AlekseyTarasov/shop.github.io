@@ -7,7 +7,7 @@ layout: default
     
     {% for product in site.products %}
       <article class="product">
-        <a href="{{ post.url | relative_url }}" class="product-link">
+        <a href="{{ product.url | relative_url }}" class="product-link">
           {% for item in page.sold_out %}
             <div class="product-mark sold-out">{{ page.sold_out }}</div>
           {% endfor %}
