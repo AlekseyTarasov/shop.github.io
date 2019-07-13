@@ -23,7 +23,19 @@
 
     {% if page.layout == 'item' %}
       <script async src="{{ site.url }}/assets/js/style-picker.js"></script>
-      <script async src="{{ site.url }}/assets/js/add-to-cart.js"></script>
+      <code>
+        clicking on "#item_add" toggles class "visible" on "#popover"
+      </code>
+      <script>
+        $(document).ready(function () {
+          $('#item_add').click(function () {
+                $("html, body").animate({
+                    scrollTop: 0
+                }, 600);
+                return false;
+            });
+        });
+      </script>
     {% endif %}
 
     {% if page.url == '/checkout/' %}
