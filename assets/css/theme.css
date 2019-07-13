@@ -444,5 +444,21 @@ td.item-quantity .simpleCart_input:focus {
 }
 
 th.item-decrement {
-	border: none;
+	display: : none;
+}
+
+td.item-decrement {
+	display: : none;
+}
+
+th.item-increment {
+	display: : none;
+}
+
+td.item-increment {
+	display: : none;
+}
+
+th.item-remove {
+	display: : none;
 }
