@@ -3,16 +3,20 @@ layout: default
 ---
 
   <main class="content">
+
     {{ content }}
-    
-    {% for product in site.products %}
-      <article class="product">
-        <a href="{{ product.url | relative_url }}" class="product-link">
-          {% for item in page.sold_out %}
-            <div class="product-mark sold-out">{{ page.sold_out }}</div>
-          {% endfor %}
-          <img class="product-image" src="{{ product.thumbnail }}">
-        </a>
-      </article>
-    {% endfor %}
+
+    {%- if site.posts.size > 0 -%}
+      {%- for post in site.posts -%}
+        <article class="product">
+          <a href="{{ post.url | relative_url }}" class="product-link">
+            {% for item in page.sold_out %}
+              <div class="product-mark sold-out">{{ page.sold_out }}</div>
+            {% endfor %}
+            <img class="product-image" src="{{ site.baseurl }}/{{ post.thumbnail }}">
+          </a>
+        </article>
+      {%- endfor -%}
+    {%- endif -%}
+
   </main>

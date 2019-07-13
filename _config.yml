@@ -14,8 +14,3 @@ markdown: kramdown
 permalink: /:title
 plugins:
   - jekyll-feed
-
-# Custom Collections
-collections:
-  products:
-    output: true
