@@ -31,7 +31,7 @@ layout: default
           	</select>
 
           	<div class="style-picker">
-            <p class="margin-bottom-0">Print:</p>
+            <p>Print:</p>
             {% for print in page.prints %}
               <div id="product-{{ forloop.index }}"{% if forloop.first %} class="item_color"{% endif %} style="background-color: {{ print.color }}"><span class="display-none">{{ print.name }}</span></div>
             {% endfor %}
@@ -39,9 +39,20 @@ layout: default
 
 			<p class="product-shipping">☞ Shipping available only in Ukraine. More countries will be add soon.</p>
 
-			<a href="mailto:your@cornishmouth.cc?Subject=Order%20{{ page.title }}&body=Choose%20your%20{{ page.size }}%20{{ page.print }}%20{{ page.color }}:%0D%0A">
-				<button class="form-order">Order</button>
-			</a>
+			<p>Quantity:</p>
+	          <select class="item_Quantity">
+	            <option value="1"> 1 </option>
+	            <option value="2"> 2 </option>
+	            <option value="3"> 3 </option>
+	            <option value="4"> 4 </option>
+	            <option value="5"> 5 </option>
+	            <option value="6"> 6 </option>
+	            <option value="7"> 7 </option>
+	            <option value="8"> 8 </option>
+	          </select>
+
+          <a id="item_add" class="item_add button" href="javascript:;"> <button class="form-order">Order</button> </a>
+
 		</section>
 	</div>
 </article>
