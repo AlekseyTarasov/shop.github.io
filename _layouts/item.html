@@ -11,11 +11,14 @@ layout: default
 
 		<section class="product-gallery">
 			<div class="product-thumb">
-			    {% for item in page.photos %}
-			  		<img src="{{ item }}">
-				{% endfor %}
+				{% for print in page.prints %}
+	          		<div id="product-{{ forloop.index }}" class="style" {% unless forloop.first %}style="display: none"{% endunless %}>
+	        				<img src="{{ print.photo }}" itemprop="image">
+	          		</div>
+	          	{% endfor %}
 			</div>
 		</section>
+
 
 		<section class="article-content">
 			{{ content }}
@@ -26,6 +29,13 @@ layout: default
               		<option value="{{ size }}"> {{ size }} </option>
             	{% endfor %}
           	</select>
+
+          	<div class="style-picker">
+            <p class="margin-bottom-0">Print:</p>
+            {% for print in page.prints %}
+              <div id="product-{{ forloop.index }}"{% if forloop.first %} class="item_color"{% endif %} style="background-color: {{ print.color }}"><span class="display-none">{{ print.name }}</span></div>
+            {% endfor %}
+        	</div>
 
 			<p class="product-shipping">☞ Shipping available only in Ukraine. More countries will be add soon.</p>
 
