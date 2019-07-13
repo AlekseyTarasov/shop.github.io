@@ -3,6 +3,8 @@ layout: default
 ---
 
   <main class="content">
+    {{ content }}
+    
     {% for product in site.products %}
       <article class="product">
         <a href="{{ post.url | relative_url }}" class="product-link">
