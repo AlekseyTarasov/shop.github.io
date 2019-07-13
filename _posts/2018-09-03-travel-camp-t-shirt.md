@@ -5,6 +5,7 @@ date:   2018-09-03
 layout: item
 price: $10.00
 sold_out: sold out
+thumbnail: assets/images/thumbnail/budapest.jpg
 sizes:
   - Small
   - Medium
@@ -21,7 +22,6 @@ print:
   - name: trieste
     color:
     photo: https://www.dropbox.com/s/0y5rc7mcyjt8ujv/trieste.jpg?raw=1
-thumbnail: https://www.dropbox.com/s/z1b4axyiuwjewtk/budapest.jpg?raw=1
 ---
 
 
