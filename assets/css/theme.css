@@ -407,6 +407,8 @@ header .cart-link{
 .simpleCart_items table{
 width: 70%;
 margin: 2em auto;
+font-weight: 700;
+font-size: 11px;
 }
 
 .simpleCart_items th{
