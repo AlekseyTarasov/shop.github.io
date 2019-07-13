@@ -24,11 +24,11 @@
     {% if page.layout == 'item' %}
       <script async src="{{ site.url }}/assets/js/style-picker.js"></script>
       <code>
-        clicking on "#item_add" toggles class "visible" on "#popover"
+        clicking on ".item_add" toggles class "visible" on "#popover"
       </code>
       <script>
         $(document).ready(function () {
-          $('#item_add').click(function () {
+          $('.item_add').click(function () {
                 $("html, body").animate({
                     scrollTop: 0
                 }, 600);
