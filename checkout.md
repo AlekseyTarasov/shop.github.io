@@ -5,6 +5,8 @@ description:
 permalink: /checkout/
 ---
 
+<div class="simpleCart_items"></div>
+
 <form action="https://formspree.io/your@cornishmouth.cc" method="POST">
   <label for="full-name">Full Name</label>
   <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
