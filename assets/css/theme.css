@@ -18,6 +18,7 @@ body {
 	font-family: 'Inter UI', sans-serif;
 	background-color: #FFF;
 		-webkit-font-smoothing: antialiased;
+		subpixel-antialiased;
 
 }
 
@@ -26,6 +27,8 @@ body {
 	width: 100%;
 	word-wrap: break-word;
     	-moz-hyphens: auto;
+    	-webkit-animation: animate6 .6s ease-in-out;
+        animation: animate6 .6s ease-in-out
 }
 
 .header{
