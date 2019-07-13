@@ -4,6 +4,6 @@ jQuery('#item_add').click(function() {
     scrollTop: 0
   }, 100);
 
-  $('#cart-menu').addClass('animated shake');
+  $('.cart-link').addClass('animated shake');
 
 });
