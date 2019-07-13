@@ -60,7 +60,7 @@ header .navigation a {
 	font-size: 11px;
 	line-height: 30px;
 	letter-spacing: .04em;
-	color: #fff;
+	color: #000;
 	text-decoration: none;
 }
 
@@ -441,6 +441,6 @@ td.item-quantity .simpleCart_input:focus {
   border: solid 1px #6d6d6d;
 }
 
-td.item-decrement {
+th.item-decrement {
 	border: none;
 }
