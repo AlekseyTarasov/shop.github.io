@@ -60,15 +60,6 @@ header .navigation a {
 	text-decoration: none;
 }
 
-header .navigation h1 {
-	font-weight: 700;
-	font-size: 11px;
-	line-height: 30px;
-	letter-spacing: .04em;
-	color: #fff;
-	text-decoration: none;
-}
-
 header .header-nav {
 	-webkit-flex: 1;
 	-ms-flex: 1;
