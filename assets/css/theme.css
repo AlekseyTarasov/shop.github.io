@@ -1,7 +1,7 @@
 @import url('https://rsms.me/inter/inter-ui.css');
 
 /* Layout 
-
+	background-color: #FFE4B1;
 	background: url(../images/unsplash.jpg) no-repeat center center fixed; 
   		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -16,7 +16,7 @@ html{
 
 body {
 	font-family: 'Inter UI', sans-serif;
-	background-color: #FFE4B1;
+	background-color: #FFF;
 		-webkit-font-smoothing: antialiased;
 
 }
