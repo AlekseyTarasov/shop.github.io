@@ -14,6 +14,8 @@ permalink: /checkout/
   <label for="email-address">Email Address</label>
   <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
 
+  <input type="hidden" name="' + item.get('id') + ' Name" value="' + item.get('name') + '">
+
   <input type="submit" value="Send">
 </form>
 
