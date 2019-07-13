@@ -167,6 +167,10 @@ header .cart-link{
 	background-color: rgb(0, 0, 0);
 }
 
+.checkout-buttom a {
+	color: #FFF;
+}
+
 .sad.icon {
   color: #000;
   position: absolute;
