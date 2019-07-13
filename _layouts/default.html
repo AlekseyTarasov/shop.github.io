@@ -11,5 +11,18 @@
 
       {%- include footer.html -%}
     </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="{{ site.url }}/assets/js/simpleCart.js"></script>
+    <script async src="{{ site.url }}/assets/js/main.js"></script>
+
+    {% if page.url contains '/products/' %}
+      <script async src="{{ site.url }}/assets/js/style-picker.js"></script>
+      <script async src="{{ site.url }}/assets/js/add-to-cart.js"></script>
+    {% endif %}
+
+    {% if page.url == '/checkout/' %}
+      <script async src="{{ site.url }}/assets/js/checkout.js"></script>
+    {% endif %}
   </body>
 </html>
