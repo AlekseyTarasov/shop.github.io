@@ -12,9 +12,9 @@ layout: default
 		<section class="product-gallery">
 			<div class="product-thumb">
 				{% for print in page.prints %}
-	          		<div id="product-{{ forloop.index }}" class="style" {% unless forloop.first %}style="display: none"{% endunless %}>
+
 	        				<img src="{{ print.photo }}" itemprop="image">
-	          		</div>
+
 	          	{% endfor %}
 			</div>
 		</section>
