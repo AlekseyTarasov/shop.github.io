@@ -401,7 +401,7 @@ header .cart-link{
 /* Full Cart */
 
 .simpleCart_items table{
-width: 100%;
+width: 70%;
 margin: 2em auto;
 }
 
@@ -410,12 +410,12 @@ color:#000;
 text-transform: lowercase;
 letter-spacing: 0.1em;
 padding: 1em;
-border:2px solid #000;
+border:1px solid #000;
 }
 
 .simpleCart_items td{
 padding: 1em;
-border-bottom: 2px dotted #000;
+border-bottom: 1px dotted #000;
 }
 
 td.item-name, td.item-price, td.item-quantity, td.item-total, td.item-remove {
@@ -429,11 +429,11 @@ td.item-quantity .simpleCart_input{
   height: 30px;
   color: #000;
   background-color: #fff;
-  border: 2px solid #000;
+  border: 1px solid #000;
   text-align: center;
 }
 
 td.item-quantity .simpleCart_input:focus {
   outline: none;
-  border: solid 2px #6d6d6d;
+  border: solid 1px #6d6d6d;
 }
