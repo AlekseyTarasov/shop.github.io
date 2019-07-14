@@ -20,7 +20,13 @@ layout: default
 		</section>
 
 		<section class="article-content">
+			
 			{{ content }}
+
+			<div class="parameters-quantity">
+	          	<p>Quantity:</p>
+				<input size="4" max="10" min="1" value="1" type="number" step="1" class="item_Quantity">
+			</div>
 
 			<div class="parameters-size">
 				<p>Size:</p>
@@ -30,10 +36,6 @@ layout: default
 	            	{% endfor %}
 	          	</select>
       		</div>
-			<div class="parameters-quantity">
-	          	<p>Quantity:</p>
-				<input size="4" max="10" min="1" value="1" type="number" step="1" class="item_Quantity">
-			</div>
 
           	<div class="style-picker">
 	            <p>Print:</p>
