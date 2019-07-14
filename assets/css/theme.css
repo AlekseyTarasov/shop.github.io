@@ -375,6 +375,10 @@ header .cart-link{
   margin-top: 1rem;
  }
 
+ .style-picker div{
+cursor: pointer;
+ }
+
 @media screen and (max-width: 800px) and (min-width: 569px) {
 .product-thumb {
 	float: none;
