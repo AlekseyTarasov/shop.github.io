@@ -380,6 +380,7 @@ header .cart-link{
 }
 
 .parameters-quantity{
+  margin-right: 2em;
   display: inline-block;
 }
 
