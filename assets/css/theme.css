@@ -377,40 +377,13 @@ header .cart-link{
 
 .parameters-size{
   display: inline-block;
+  text-align: center;
 }
 
 .parameters-quantity{
-  margin-right: 2em;
+  margin-right: 1em;
   display: inline-block;
-}
-
-.parameters-quantity input, input:matches([type="password"], [type="search"]) {
--webkit-appearance: textfield;
-background-color: white;
-border-top-width: 2px;
-border-right-width: 2px;
-border-bottom-width: 2px;
-border-left-width: 2px;
-border-top-style: inset;
-border-right-style: inset;
-border-bottom-style: inset;
-border-left-style: inset;
-border-top-color: initial;
-border-right-color: initial;
-border-bottom-color: initial;
-border-left-color: initial;
-border-image-source: initial;
-border-image-slice: initial;
-border-image-width: initial;
-border-image-outset: initial;
-border-image-repeat: initial;
-padding-top: 1px;
-padding-right: 1px;
-padding-bottom: 1px;
-padding-left: 1px;
--webkit-rtl-ordering: logical;
--webkit-user-select: text;
-cursor: auto;
+  text-align: center;
 }
 
 .style-picker div{
