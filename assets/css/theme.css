@@ -377,13 +377,11 @@ header .cart-link{
 
 .parameters-size{
   display: inline-block;
-  text-align: center;
 }
 
 .parameters-quantity{
-  margin-right: 1em;
+  margin-right: 2em;
   display: inline-block;
-  text-align: center;
 }
 
 .style-picker div{
