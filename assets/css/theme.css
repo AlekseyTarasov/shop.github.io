@@ -373,11 +373,19 @@ header .cart-link{
   position: relative;
   max-width: 550px;
   margin-top: 1rem;
- }
+}
 
- .style-picker div{
-cursor: pointer;
- }
+.parameters-size{
+  display: inline-block;
+}
+
+.parameters-quantity{
+  display: inline-block;
+}
+
+.style-picker div{
+  cursor: pointer;
+}
 
 @media screen and (max-width: 800px) and (min-width: 569px) {
 .product-thumb {
