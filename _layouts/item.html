@@ -20,7 +20,7 @@ layout: default
 		</section>
 
 		<section class="article-content">
-			
+
 			{{ content }}
 
 			<div class="parameters-quantity">
@@ -40,7 +40,7 @@ layout: default
           	<div class="style-picker">
 	            <p>Print:</p>
 	            {% for print in page.prints %}
-	              <div id="product-{{ forloop.index }}"{% if forloop.first %} class="item_color"{% endif %} style="background-color: {{ print.color }}"><span class="display-none">{{ print.name }}</span></div>
+	              <div id="product-{{ forloop.index }}"{% if forloop.first %} class="item_color"{% endif %} style="background-color: {{ print.color }}"><span class="display-none"><strong>{{ print.name }}</strong></span></div>
 	            {% endfor %}
         	</div>
 
