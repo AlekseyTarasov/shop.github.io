@@ -19,7 +19,6 @@ layout: default
 			</div>
 		</section>
 
-
 		<section class="article-content">
 			{{ content }}
 
@@ -31,19 +30,18 @@ layout: default
           	</select>
 
           	<div class="style-picker">
-            <p>Print:</p>
-            {% for print in page.prints %}
-              <div id="product-{{ forloop.index }}"{% if forloop.first %} class="item_color"{% endif %} style="background-color: {{ print.color }}"><span class="display-none">{{ print.name }}</span></div>
-            {% endfor %}
+	            <p>Print:</p>
+	            {% for print in page.prints %}
+	              <div id="product-{{ forloop.index }}"{% if forloop.first %} class="item_color"{% endif %} style="background-color: {{ print.color }}"><span class="display-none">{{ print.name }}</span></div>
+	            {% endfor %}
         	</div>
-
-			<p class="product-shipping">☞ Shipping available only in Ukraine. More countries will be add soon.</p>
 
 			<p>Quantity:</p>
 			<input size="4" max="10" min="1" value="1" type="number" step="1" class="item_Quantity">
 
-          <a class="item_add"><button class="form-order">Order</button></a>
+			<p class="product-shipping">☞ Shipping available only in Ukraine. More countries will be add soon.</p>
 
+        	<a class="item_add"><button class="form-order">Order</button></a>
 		</section>
 	</div>
 </article>
