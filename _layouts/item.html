@@ -22,12 +22,18 @@ layout: default
 		<section class="article-content">
 			{{ content }}
 
-			<p><strong>Size available:</strong></p>
-			<select class="item_size">
-            	{% for size in page.sizes %}
-              		<option value="{{ size }}"> {{ size }} </option>
-            	{% endfor %}
-          	</select>
+			<div class="parameters-size">
+				<p>Size:</p>
+				<select class="item_size">
+	            	{% for size in page.sizes %}
+	              		<option value="{{ size }}"> {{ size }} </option>
+	            	{% endfor %}
+	          	</select>
+      		</div>
+			<div class="parameters-quantity">
+	          	<p>Quantity:</p>
+				<input size="4" max="10" min="1" value="1" type="number" step="1" class="item_Quantity">
+			</div>
 
           	<div class="style-picker">
 	            <p>Print:</p>
@@ -35,9 +41,6 @@ layout: default
 	              <div id="product-{{ forloop.index }}"{% if forloop.first %} class="item_color"{% endif %} style="background-color: {{ print.color }}"><span class="display-none">{{ print.name }}</span></div>
 	            {% endfor %}
         	</div>
-
-			<p>Quantity:</p>
-			<input size="4" max="10" min="1" value="1" type="number" step="1" class="item_Quantity">
 
 			<p class="product-shipping">☞ Shipping available only in Ukraine. More countries will be add soon.</p>
 
