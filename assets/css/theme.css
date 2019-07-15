@@ -568,6 +568,7 @@ th.item-remove {
 }
 
 .contact-form input[type=submit] {
+  color: #FFF;
   background: #000;
   border: 0;
   padding: 8px 16px;
