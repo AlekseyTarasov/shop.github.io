@@ -579,8 +579,8 @@ th.item-remove {
 text-transform: uppercase;
 }
 
-.checkout-buttom{
-  margin-top: 1em;
+.cart-data{
+  margin: 1em 0;
 }
 
 .item_color{
