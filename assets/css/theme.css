@@ -597,7 +597,7 @@ margin: 1em 0;
 }
 
 .addto-cart{
-  transition: .8s
+  transition: .8s;
   opacity: 0
 }
 
