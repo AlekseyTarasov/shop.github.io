@@ -571,3 +571,9 @@ th.item-remove {
   color: #fff;
   background-color: #000;
 }
+
+
+.cart-data a {
+  color: #FFF;
+  padding: 1em;
+}
