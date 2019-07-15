@@ -566,3 +566,8 @@ th.item-remove {
 .contact-form .name {
   float: left;
 }
+
+.contact-form .submit {
+  color: #fff;
+  background-color: #000;
+}
