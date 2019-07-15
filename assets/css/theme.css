@@ -573,7 +573,8 @@ th.item-remove {
 }
 
 
-.cart-data a {
+#popover a {
   color: #FFF;
   padding: 1em;
+text-transform: uppercase;
 }
