@@ -567,9 +567,11 @@ th.item-remove {
   float: left;
 }
 
-.contact-form .submit {
-  color: #fff;
-  background-color: #000;
+.contact-form input[type=submit] {
+  background: #000;
+  border: 0;
+  padding: 8px 16px;
+  transition: background 0.2s;
 }
 
 
