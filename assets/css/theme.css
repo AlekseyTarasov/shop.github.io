@@ -595,3 +595,12 @@ font-size: 11px;
 letter-spacing: 0.8px;
 margin: 1em 0;
 }
+
+.addto-cart{
+  transition: .8s
+  opacity: 0
+}
+
+.addto-cart .show {
+  opacity: 1
+}
