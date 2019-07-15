@@ -582,3 +582,13 @@ text-transform: uppercase;
 .checkout-buttom{
   margin-top: 1em;
 }
+
+.item_color{
+	margin-left: 1em;
+}
+
+.style-picker {
+font-size: 11px;
+letter-spacing: 0.8px;
+margin: 1em 0;
+}
