@@ -426,10 +426,9 @@ header .cart-link{
 /* Full Cart */
 
 .simpleCart_items table{
-width: 70%;
+width: 50%;
 margin: 2em auto;
-font-weight: 700;
-font-size: 11px;
+font-size: 10px;
 }
 
 .simpleCart_items th{
