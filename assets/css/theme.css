@@ -61,7 +61,7 @@ header .navigation{
 
 header .navigation a {
 	font-weight: 700;
-	font-size: .6875rem;
+	font-size: 11px;
 	line-height: 30px;
 	letter-spacing: .04em;
 	color: #000;
@@ -103,8 +103,8 @@ header .branding{
 
 header img {
 	height: auto;
-	max-width: 80%;
-	margin-top: 1em;
+	max-width: 60%;
+	margin-top: 2em;
 }
 
 @media (min-width: 550px) {
@@ -426,9 +426,10 @@ header .cart-link{
 /* Full Cart */
 
 .simpleCart_items table{
-width: 50%;
+width: 70%;
 margin: 2em auto;
-font-size: 10px;
+font-weight: 700;
+font-size: 11px;
 }
 
 .simpleCart_items th{
