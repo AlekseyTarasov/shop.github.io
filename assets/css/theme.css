@@ -16,7 +16,7 @@ html{
 
 body {
 	font-family: 'Inter UI', sans-serif;
-	background-color: #FFF;
+	background-color: #000;
 		-webkit-font-smoothing: antialiased;
 		subpixel-antialiased;
 
@@ -64,7 +64,7 @@ header .navigation a {
 	font-size: 11px;
 	line-height: 30px;
 	letter-spacing: .04em;
-	color: #000;
+	color: #FFF;
 	text-decoration: none;
 }
 
