@@ -5,7 +5,7 @@ date:   2018-09-03
 layout: item
 price: $10.00
 sold_out: sold out
-thumbnail: assets/images/thumbnail/budapest-noise.png
+thumbnail: assets/images/thumbnail/qq.png
 sizes:
   - Small
   - Medium
