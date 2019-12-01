@@ -433,15 +433,15 @@ font-size: 11px;
 }
 
 .simpleCart_items th{
-color:#000;
+color:#fff;
 text-transform: lowercase;
 padding: 1em;
-border:1px solid #000;
+border:1px solid #fff;
 }
 
 .simpleCart_items td{
 padding: 1em;
-border-bottom: 1px dotted #000;
+border-bottom: 1px dotted #fff;
 }
 
 td.item-name, td.item-price, td.item-quantity, td.item-total, td.item-remove {
@@ -453,9 +453,9 @@ td.item-quantity .simpleCart_input{
   margin: 1em auto;
   width: 20%;
   height: 30px;
-  color: #000;
-  background-color: #fff;
-  border: 1px solid #000;
+  color: #fff;
+  background-color: #000;
+  border: 1px solid #fff;
   text-align: center;
 }
 
