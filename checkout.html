@@ -11,7 +11,14 @@ permalink: /checkout/
 	<section class="contact-form">
 		<form action="https://submit-form.com/echo">
 	  		<input type="hidden" name="_redirect" value="https://shop.cornishmouth.cc/"/>
-	  		<input type="email" name="email"/>
+	  		<input type="hidden" name="_append" value="false" />
+
+			<label for="full-name">Full Name</label>
+	  		<input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+
+	  		<label for="email-address">Email Address</label>
+	  		<input type="email" name="email" placeholder="email@domain.tld" required />
+	  		
 	  		<button type="submit">Subscribe</button>
 		</form>
 	</section>
