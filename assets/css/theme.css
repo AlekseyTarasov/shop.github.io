@@ -433,10 +433,10 @@ font-size: 11px;
 }
 
 .simpleCart_items th{
-color:#fff;
+color: #000;
 text-transform: lowercase;
 padding: 1em;
-border:1px solid #fff;
+border:1px solid #000;
 }
 
 .simpleCart_items td{
