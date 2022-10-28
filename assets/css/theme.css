@@ -657,7 +657,7 @@ margin: 1em 0;
   text-align: center;
 }
 
-.container:hover .overlay {
+.product:hover .overlay {
   opacity: 1;
 }
 
