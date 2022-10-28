@@ -14,7 +14,9 @@ layout: default
               <div class="product-mark sold-out">{{ page.sold_out }}</div>
             {% endfor %}
             <img class="product-image" src="{{ site.baseurl }}/{{ post.thumbnail }}">
-            <div class="hover"><div>
+            <div class="overlay">
+              <div class="text">Hello World</div>
+            </div>
           </a>
         </article>
       {%- endfor -%}
