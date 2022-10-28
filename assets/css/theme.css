@@ -444,6 +444,28 @@ padding: 1em;
 border-bottom: 1px dotted #000;
 }
 
+.simpleCart_remove{
+	line-height: 1.5;
+	letter-spacing: 0.6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	background-color: #000;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	min-width: calc(var(--body-font-size)) * 1.5);
+	padding-top: 18px;
+	text-align: center;
+	text-decoration-line: none;
+	text-decoration-style: initial;
+	text-decoration-color: initial;
+	text-decoration: none;
+}
+
+}
+
 td.item-name, td.item-price, td.item-quantity, td.item-total, td.item-remove {
 text-align:center;
 }
