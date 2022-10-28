@@ -623,3 +623,9 @@ margin: 1em 0;
   opacity: 0
 }
 
+#addto-cart.visible {
+  opacity: 1;
+  pointer-events: auto;
+  -webkit-transform: none;
+  transform: none;
+}
