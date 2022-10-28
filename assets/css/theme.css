@@ -441,7 +441,7 @@ border:1px solid #fff;
 
 .simpleCart_items td{
 padding: 1em;
-border-bottom: 1px dotted #fff;
+border-bottom: 1px dotted #000;
 }
 
 td.item-name, td.item-price, td.item-quantity, td.item-total, td.item-remove {
